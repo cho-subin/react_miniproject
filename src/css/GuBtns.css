@@ -1,0 +1,39 @@
+
+
+.GuBtns{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background-color: rgb(31, 184, 239);
+}
+
+.wrap1{
+    display: flex;
+    width: 85%;
+    margin: 15px 0;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wrap1>button{
+    border: 1.5px solid white;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    padding-top: 0.1%;
+
+    background-color: rgb(31, 184, 239);
+
+    font-family: "nanumsqaire";
+    font-weight: bolder;
+    font-size: 17px;
+    color: white;
+}
+
+.wrap1>button:hover {
+    color:rgb(255, 242, 0);
+    border: 2.5px solid rgb(255, 242, 0);
+    /* 호버시 조금 확대 */
+    transform: scale(1.1);
+}

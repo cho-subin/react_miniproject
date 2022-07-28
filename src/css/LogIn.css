@@ -1,0 +1,147 @@
+
+.login{
+    display: flex;
+    max-width: 100%;
+    /* background-color: rgb(186, 224, 238); */
+    justify-content: center;
+}
+
+.login_wrap{
+    display: flex;
+    min-width: 50%;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 8% 0 0 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+    opacity: 100%;
+}
+
+.login_title{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    margin-bottom: 2%;
+    margin-top: 15%;
+    /* background-color: aqua; */
+}
+
+.login_title>h1{
+    font-family: "nanumsqaire";
+    font-size: 250%;
+    /* background-color: antiquewhite; */
+    color: rgb(0, 183, 255);
+}
+
+.login_hr{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 6%;
+    border: 0.5px solid rgb(142, 225, 255);
+}
+
+.login_id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5% 0 3.5% 0;
+    /* background-color: aqua; */
+}
+
+.login_id>h1{
+    width: 37px;
+    text-align: right;
+    font-family: "nanumsqaire";
+    color:rgb(0, 167, 227);
+    font-size: 150%;
+    margin-right: 4%;
+    /* background-color: aqua; */
+}
+
+.login_id>input{
+    width: 60%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(142, 225, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    font-family: "nanumsqaire_R";
+    font-weight: bold;
+    font-size: 115%;
+    color: rgb(59, 148, 180);
+    padding-left: 2%;
+}
+
+.login_id>::placeholder{
+    color: rgb(175, 175, 175);
+
+    font-family: "nanumsqaire_R";
+    font-weight: normal;
+    font-size: 85%;
+}
+
+.login_pw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2% 0 3.5% 0;
+    /* background-color: aqua; */
+}
+
+.login_pw>h1{
+    text-align: left;
+    color:rgb(0, 167, 227);
+    font-family: "nanumsqaire";
+    font-size: 150%;
+    margin-right: 4%;
+    /* background-color: rgb(110, 156, 156); */
+}
+
+.login_pw>input{
+    width: 60%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(142, 225, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    font-weight: bold;
+    font-size: 115%;
+    color: rgb(59, 148, 180);
+    padding-left: 2%;
+}
+
+.login_pw>::placeholder{
+    color: rgb(175, 175, 175);
+    font-family: "nanumsqaire_R";
+    font-weight: normal;
+    font-size: 85%;
+}
+
+.login_btn{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0 12% 0;
+    /* background-color: aquamarine; */
+}
+
+.login_btn>button{
+    margin: 30px 0;
+    width: 25%;
+    height: 40px;
+    border: none;
+    /* border: 2px solid rgb(0, 187, 255); */
+    border-radius: 4px;
+    background-color: rgb(0, 187, 255);
+
+    font-family: "nanumsqaire";
+    color: white;
+    font-weight: bold;
+    font-size: 115%;
+}

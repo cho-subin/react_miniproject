@@ -1,0 +1,39 @@
+.Add_Btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* gap: 20px; */
+
+}
+
+.add_icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 35px;
+    border: none;
+    background-color: rgb(80, 179, 255);
+    padding-top: 12px;
+    padding-left: 4px;
+    box-sizing: border-box;
+
+    /* 호버시 서서히 변하게 */
+    transition: all 0.5s;
+}
+
+.checkpen {
+    font-size: 37px;
+    color: white;
+}
+
+.add_icon:hover {
+    background-color: rgb(59, 130, 206);
+}
+
+/* add_icon에 커서 올렸을때 .checkpen이 반응하게 */
+.add_icon:hover .checkpen {
+    color: rgb(255, 255, 187);
+}

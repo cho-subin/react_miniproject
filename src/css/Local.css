@@ -1,0 +1,117 @@
+@charset "use-8";
+
+@font-face {
+    font-family: "dohyun";
+    src: url('../font/BMDOHYEON_otf.otf');
+}
+
+@font-face {
+    font-family: "nanumsqaire";
+    src: url('../font/NanumSquareEB.otf');
+}
+
+@font-face {
+    font-family: "nanumsqaire_R";
+    src: url('../font/NanumSquareR.otf');
+}
+
+@font-face {
+    font-family: "jua";
+    src: url('../font/BMJUA_otf.otf');
+}
+
+.Local{
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.card_list{
+    /* display: flex;
+    justify-content: left;
+    justify-content: flex-start;
+    width: 85%;
+    background-color: aquamarine; */
+    
+    display: flex;
+    margin-top: 2%;
+    justify-content: left;
+    align-items: left;
+    width: 85%;
+    /* 화면 줄이면 밑으로 넘어가게끔 */
+    flex-wrap: wrap;
+    /* justify-content: row; */
+    /* background-color: rgb(168, 142, 107); */
+    gap: 0 4%;
+
+    box-sizing: border-box;
+}
+
+.Card{
+    /* flex item 기본 너비 */
+    width: 48%;
+    /* flex-basis: 40vw; */
+    height: 450px;
+    border-radius: 15px;
+    /* 아이템들이 자동으로 여백을 줄이고 늘이지 않도록 설정 */
+    flex-grow: 0;
+    background-color: rgb(54, 82, 82);
+    margin-bottom: 4%;
+    overflow: hidden;
+}
+
+.Card:hover{
+    /* box-shadow: 0px 7px 20px 3px rgb(66, 90, 117); */
+    transition: all 0.3s;
+    transform: scale(1.03);
+}
+
+.img_wrap{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(195, 235, 255);
+}
+
+.img_wrap>div{
+    /* 카드 이미지 넣기 */
+    background-image: url('../img/bg_ex.jpeg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat; /*패턴일땐 repeat*/
+    /* background-color: aquamarine; */
+    /* 투명도 */
+    opacity: 70%;
+}
+
+.text_wrap{
+    padding: 2.5em 0;
+    max-width: 100%;
+    height: 25%;
+    background-color: rgb(31, 120, 193);
+    opacity: 100%;
+}
+
+.text_wrap>h3{
+    font-family: "dohyun";
+    font-weight: 200;
+    font-size: 230%;
+    color: white;
+}
+
+.text_wrap>button{
+    margin-top: 10px;
+    padding-top: 0.2%;
+    width: 60px;
+    height: 30px;
+    font-size: 115%;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    outline: 0;
+    background-color: transparent;
+}

@@ -1,0 +1,254 @@
+
+.SignUp{
+    display: flex;
+    max-width: 100%;
+    /* background-color: rgb(186, 224, 238); */
+    justify-content: center;
+}
+
+.sign_wrap{
+    display: flex;
+    min-width: 50%;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 5% 0 0 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+    opacity: 100%;
+}
+
+.sign_title{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    margin-bottom: 2%;
+    margin-top: 10%;
+    /* background-color: aqua; */
+}
+
+.sign_title>h1{
+    font-size: 250%;
+    /* background-color: antiquewhite; */
+    color: rgb(0, 183, 255);
+}
+
+.sign_hr{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 6%;
+    border: 0.5px solid rgb(142, 225, 255);
+}
+
+.sign_wrap_bottom{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 20px;
+    /* background-color: rgb(149, 119, 119); */
+    opacity: 100%;
+}
+
+.signup_id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5% 0 0% 0;
+    /* background-color: aqua; */
+}
+
+.signup_id>h1{
+    width: 42px;
+    text-align: center;
+    color:rgb(0, 167, 227);
+    font-size: 150%;
+    margin-right: 4%;
+    /* background-color: aqua; */
+}
+
+.signup_id>input{
+    width: 60%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(142, 225, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 115%;
+    color: rgb(59, 148, 180);
+    padding-left: 2%;
+}
+
+.re_signup_id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1% 0 0% 0;
+    /* background-color: aqua; */
+}
+
+.re_signup_id>h1{
+    width: 42px;
+    
+    color:rgb(0, 167, 227);
+    font-size: 150%;
+    text-align: center;
+
+    margin-right: 4%;
+    /* background-color: aqua; */
+}
+
+.re_signup_id>button{
+    width: 60%;
+    height: 25px;
+    background-color: rgb(0, 187, 255);
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    font-weight: bold;
+    font-size: 100%;
+    color: white;
+
+    padding-left: 2%;
+}
+
+.signup_id>::placeholder{
+    color: rgb(175, 175, 175);
+    font-weight: normal;
+    font-size: 85%;
+}
+
+/* .signup_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5% 0 3.5% 0;
+    /* background-color: aqua; 
+} */
+
+/* .signup_name>h1{
+    color:rgb(0, 167, 227);
+    font-size: 150%;
+    margin-right: 4%;
+} */
+
+/* .signup_name>input{
+    width: 60%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(142, 225, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 115%;
+    color: rgb(59, 148, 180);
+    padding-left: 2%;
+} */
+
+/* .signup_name>::placeholder{
+    color: rgb(175, 175, 175);
+    font-weight: normal;
+    font-size: 85%;
+} */
+
+.signup_pw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5% 0 3.5% 0;
+    /* background-color: aqua; */
+}
+
+.signup_pw>h1{
+    width: 42px;
+    text-align: center;
+    color:rgb(0, 167, 227);
+    font-size: 150%;
+    margin-right: 4%;
+    /* background-color: aqua; */
+}
+
+.signup_pw>input{
+    width: 60%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(142, 225, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 115%;
+    color: rgb(59, 148, 180);
+    padding-left: 2%;
+}
+
+.signup_pw>::placeholder{
+    color: rgb(175, 175, 175);
+    font-weight: normal;
+    font-size: 85%;
+}
+.signup_re_pw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 3% 0 3.5% 0;
+    /* background-color: aqua; */
+}
+
+.signup_re_pw>h1{
+    width: 42px;
+    text-align: center;
+    color:rgb(0, 167, 227);
+    font-size: 150%;
+    margin-right: 4%;
+    /* background-color: aqua; */
+}
+
+.signup_re_pw>input{
+    width: 60%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(142, 225, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 115%;
+    color: rgb(59, 148, 180);
+    padding-left: 2%;
+}
+
+.signup_re_pw>::placeholder{
+    color: rgb(175, 175, 175);
+    font-weight: normal;
+    font-size: 85%;
+}
+
+.signup_btn{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0 12% 0;
+    /* background-color: aquamarine; */
+}
+
+.signup_btn>button{
+    margin: 30px 0;
+    width: 30%;
+    height: 40px;
+    border: none;
+    /* border: 2px solid rgb(0, 187, 255); */
+    border-radius: 4px;
+    background-color: rgb(0, 187, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+}

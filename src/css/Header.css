@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    /* background-color: rgb(226, 245, 255); */
+}
+
+.Header .wrap{
+    display: flex;
+    width: 85%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo>h3{
+    font-family: "nanumsqaire";
+    font-size: 190%;
+    font-weight: 200;
+    color : rgb(21, 154, 203)
+}
+
+.login_btns{
+    display: flex;
+    justify-content: space-between;
+    /* 수평 중앙정렬 */
+    align-items: center;
+    width: 180px;
+    /* background-color: aqua; */
+    flex-direction: row;
+}
+
+/* .login_btn{
+    display: inline-block;
+    justify-content: center;
+    /* background-color: aqua; */
+    /* flex-direction: row; */
+/* }  */
+
+/* 유저 닉네임 */
+.login_btns>button:nth-child(1){
+    /* 버튼 촌스런효과 다 없애기!!! */
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+
+    color: rgb(31, 184, 239);
+    font-family: "nanumsqaire";
+    font-weight: bold;
+    font-size: 95%;
+}
+
+/* 로그인 */
+.login_btns>button:nth-child(2){
+    /* 버튼 촌스런효과 다 없애기!!! */
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+
+    color: rgb(119, 119, 119);
+    font-family: "nanumsqaire";
+    font-weight: bold;
+    font-size: 95%;
+}
+
+/* 회원가입 */
+.login_btns>button:nth-child(3){
+    /* 버튼 촌스런효과 다 없애기!!! */
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+
+    color: rgb(119, 119, 119);
+    font-family: "nanumsqaire";
+    font-weight: bold;
+    font-size: 95%;
+}
+

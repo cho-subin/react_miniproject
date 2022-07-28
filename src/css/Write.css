@@ -1,0 +1,208 @@
+.Write{
+    display: flex;
+    max-width: 100%;
+    background-color: rgb(200, 220, 227);
+    justify-content: center;
+}
+
+.write_wrap{
+    display: flex;
+    width: 54%;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 3% 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+    opacity: 100%;
+}
+
+.main_title{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+
+.main_title>h1{
+    font-size: 250%;
+    /* background-color: antiquewhite; */
+    color: rgb(0, 150, 205);
+}
+
+.write_title{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 3.5% 0;
+}
+
+.write_title>h1{
+    width: 90px;
+    /* background-color: aqua; */
+    color:rgb(0, 167, 227);
+    font-size: 150%;
+    margin-bottom: 2%;
+}
+
+.write_title>input{
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(142, 225, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 115%;
+    color: rgb(59, 148, 180);
+    padding-left: 2%;
+}
+
+/* .write_title>input의 placeholder 설정 */
+.write_title>::placeholder{
+    color: rgb(175, 175, 175);
+    font-weight: normal;
+    font-size: 85%;
+}
+
+.choice_gu{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0 3.5% 0;
+}
+
+.choice_gu>h1{
+    width: 90px;
+    /* background-color: aqua; */
+
+    color:rgb(0, 167, 227);
+    font-size: 150%;
+    margin-bottom: 2%;
+}
+
+.choice_gu>.select_gu{
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(142, 225, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 0 2%;
+    font-weight: bold;
+    font-size: 115%;
+    color: rgb(59, 148, 180);
+}
+
+.choice_count{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0 3.5% 0;
+}
+
+.choice_count>h1{
+    width: 130px;
+    /* background-color: aqua; */
+
+    color:rgb(0, 167, 227);
+    font-size: 150%;
+    margin-bottom: 2%;
+}
+
+.choice_count>.select_count{
+    max-width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(142, 225, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 0 2%;
+    font-weight: bold;
+    font-size: 115%;
+    color: rgb(59, 148, 180);
+}
+
+.write_introduce{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0 3.5% 0;
+}
+
+.write_introduce>h1{
+    width: 90px;
+    /* background-color: aqua; */
+    
+    color:rgb(0, 167, 227);
+    font-size: 150%;
+    margin-bottom: 2%;
+}
+
+.write_introduce>textarea{
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    border: 2px solid rgb(142, 225, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: none;
+    padding: 2% 2%;
+    font-weight: normal;
+    font-size: 130%;
+    color: rgb(59, 148, 180);
+
+    /* 줄바꿈 공백 연속공백이 보존되면서 크기에 따라 자동줄바꿈이 일어난다. */
+    white-space: pre-wrap;
+}
+
+
+
+.fine_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.fine_img>.file{
+    display: none;
+}
+
+.fine_img>button{
+    margin: 15px auto;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(0, 187, 255);
+    border-radius: 15px;
+    background-color: transparent;
+    color: rgb(0, 187, 255);
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.preview_img{
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.write_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0 3.5% 0;
+}
+
+.write_btn>button{
+    margin: 30px 0;
+    width: 100%;
+    height: 40px;
+    border: none;
+    /* border: 2px solid rgb(0, 187, 255); */
+    border-radius: 4px;
+    background-color: rgb(0, 187, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+}
+
